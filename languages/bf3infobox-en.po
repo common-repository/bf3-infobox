@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress BF3 Info Plugin\n"
+"POT-Creation-Date: 2013-04-01 09:06+0100\n"
+"PO-Revision-Date: 2013-04-01 09:06+0100\n"
+"Last-Translator: Calaelen <info@calaelen.com>\n"
+"Language-Team: Calaelen <info@calaelen.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_ex\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../bf3infobox.php:54
+msgid "Settings"
+msgstr ""
+
+#: ../inc/bf3infobox-options.php:16 ../inc/bf3infobox-options.php:48
+msgid "BF3 Infobox Options"
+msgstr ""
+
+#: ../inc/bf3infobox-options.php:66
+msgid "Widget Display Options - Show:"
+msgstr ""
+
+#: ../inc/bf3infobox-options.php:73
+msgid "Playername (Origin ID) and Link to bf3stats.com:"
+msgstr ""
+
+#: ../inc/bf3infobox-options.php:82
+msgid "Platform (PC/PS3/360):"
+msgstr ""
+
+#: ../inc/bf3infobox-options.php:91
+msgid "Points till next Rank:"
+msgstr ""
+
+#: ../inc/bf3infobox-options.php:100
+msgid "General Stats Table:"
+msgstr ""
+
+#: ../inc/bf3infobox-widget.php:8
+msgid "Display a widget with your Battlefield 3 stats"
+msgstr ""
+
+#: ../inc/bf3infobox-widget.php:9 ../inc/bf3infobox-widget.php:11
+#: ../inc/bf3infobox-widget.php:46
+msgid "BF3 Player Infobox"
+msgstr ""
+
+#: ../views/form.phtml:2
+msgid "Infobox Title"
+msgstr ""
+
+#: ../views/form.phtml:12
+msgid "Playername"
+msgstr ""
+
+#: ../views/form.phtml:22
+msgid "Platform"
+msgstr ""
+
+#: ../views/form.phtml:32
+msgid "Update at bf3stats.com"
+msgstr ""
+
+#: ../views/form.phtml:36
+msgid ""
+"Info: Save to clear internal 60min cache and reload Stats from bf3stats.com "
+"(Update manualy before!)"
+msgstr ""
+
+#: ../views/infobox.phtml:51
+#, php-format
+msgid "Progress: %s, %d left"
+msgstr ""
+
+#: ../views/infobox.phtml:62
+msgid "Kill/Death Ratio"
+msgstr ""
+
+#: ../views/infobox.phtml:70
+msgid "Win/Loss Ratio"
+msgstr ""
+
+#: ../views/infobox.phtml:79
+msgid "Accuracy"
+msgstr ""
+
+#: ../views/infobox.phtml:94
+msgid "Score per Minute"
+msgstr ""
+
+#: ../views/infobox.phtml:103
+msgid "Longest Kill Streak"
+msgstr ""
+
+#: ../views/infobox.phtml:111
+msgid "Longest Headshot"
+msgstr ""
+
+#: ../views/infobox.phtml:123
+msgid "more statistics"
+msgstr ""

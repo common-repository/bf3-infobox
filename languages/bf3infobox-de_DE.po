@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battlefield 3 Infobox v0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-01 09:04+0100\n"
+"PO-Revision-Date: 2013-04-01 10:29:07+0000\n"
+"Last-Translator: Calaelen <info@calaelen.com>\n"
+"Language-Team: Calaelen <info@calaelen.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: bf3infobox.php:78
+#@ default
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/bf3infobox-options.php:16
+#: inc/bf3infobox-options.php:48
+#@ bf3infobox
+msgid "BF3 Infobox Options"
+msgstr "BF3 Infobox Optionen"
+
+#: inc/bf3infobox-options.php:66
+#@ bf3infobox
+msgid "Widget Display Options - Show:"
+msgstr "Widget Darstellungsoptionen - Zeige:"
+
+#: inc/bf3infobox-options.php:73
+#@ bf3infobox
+msgid "Playername (Origin ID) and Link to bf3stats.com:"
+msgstr "Spielername (Origin ID) und Link zu bf3stats.com:"
+
+#: inc/bf3infobox-options.php:82
+#@ bf3infobox
+msgid "Platform (PC/PS3/360):"
+msgstr "Plattform (PC/PS3/360):"
+
+#: inc/bf3infobox-options.php:91
+#@ bf3infobox
+msgid "Points till next Rank:"
+msgstr "Punkte bis zum nächsten Rang:"
+
+#: inc/bf3infobox-options.php:100
+#@ bf3infobox
+msgid "General Stats Table:"
+msgstr "Statistik Tabelle:"
+
+#: inc/bf3infobox-widget.php:8
+#@ bf3infobox
+msgid "Display a widget with your Battlefield 3 stats"
+msgstr "Zeige ein Widget mit deinen Battlefield 3 Statistiken."
+
+#: inc/bf3infobox-widget.php:9
+#: inc/bf3infobox-widget.php:11
+#: inc/bf3infobox-widget.php:50
+#@ bf3infobox
+msgid "BF3 Player Infobox"
+msgstr "BF3 Spieler Infobox"
+
+#: views/form.phtml:2
+#@ bf3infobox
+msgid "Infobox Title"
+msgstr "Infobox Titel"
+
+#: views/form.phtml:12
+#@ bf3infobox
+msgid "Playername"
+msgstr "Spielername"
+
+#: views/form.phtml:22
+#@ bf3infobox
+msgid "Platform"
+msgstr "Plattform"
+
+#: views/form.phtml:32
+#@ bf3infobox
+msgid "Update at bf3stats.com"
+msgstr "Update: bf3stats.com"
+
+#: views/form.phtml:36
+#@ bf3infobox
+msgid "Info: Save to clear internal 60min cache and reload Stats from bf3stats.com (Update manualy before!)"
+msgstr "Info: Speichern um den internen 60min Cache zu löschen und um die Statistiken von bf3stats.com neu zu laden (Manuelles Update vorher starten!)"
+
+#: views/infobox.phtml:51
+#, php-format
+#@ bf3infobox
+msgid "Progress: %s, %d left"
+msgstr "Fortschritt: %s, %d übrig"
+
+#: views/infobox.phtml:62
+#@ bf3infobox
+msgid "Kill/Death Ratio"
+msgstr "Kills/Verluste Verhältnis"
+
+#: views/infobox.phtml:70
+#@ bf3infobox
+msgid "Win/Loss Ratio"
+msgstr "Sieg/Niederlage Verhältnis"
+
+#: views/infobox.phtml:79
+#@ bf3infobox
+msgid "Accuracy"
+msgstr "Präzision"
+
+#: views/infobox.phtml:94
+#@ bf3infobox
+msgid "Score per Minute"
+msgstr "Punkte pro Minute"
+
+#: views/infobox.phtml:103
+#@ bf3infobox
+msgid "Longest Kill Streak"
+msgstr "Längste Kill-Serie"
+
+#: views/infobox.phtml:111
+#@ bf3infobox
+msgid "Longest Headshot"
+msgstr "Längster Kopftreffer"
+
+#: views/infobox.phtml:123
+#@ bf3infobox
+msgid "more statistics"
+msgstr "mehr Statistiken"
+
+#. translators: plugin header field 'PluginURI'
+#: bf3infobox.php:0
+#@ bf3infobox
+msgid "https://github.com/Calaelen/wordpress-bf3info-plugin"
+msgstr "https://github.com/Calaelen/wordpress-bf3info-plugin"
+
+#. translators: plugin header field 'Description'
+#: bf3infobox.php:0
+#@ bf3infobox
+msgid "2013 Update! Display your Battlefield 3 Player Statistics from bf3stats.com in a sidebar widget. <strong>Show/hide values via the settings</strong> (e.g. hide Origin username)."
+msgstr "2013 Update! Zeige deine Battlefield 3 Spieler Statistiken von bf3stats.com in einem Sidebar Widget. <strong>Einzelne Werte können über die Einstellungen ein-/ausgeblendet werden</strong> (z.B. Origin Username ausblenden)."
+
+#. translators: plugin header field 'Author'
+#: bf3infobox.php:0
+#@ bf3infobox
+msgid "Calaelen"
+msgstr "Calaelen"
+
+#. translators: plugin header field 'AuthorURI'
+#: bf3infobox.php:0
+#@ bf3infobox
+msgid "http://www.calaelen.com/about/"
+msgstr "http://www.calaelen.com/about/"
+
+#. translators: plugin header field 'Version'
+#: bf3infobox.php:0
+#@ bf3infobox
+msgid "0.3"
+msgstr "0.3"
+
+#. translators: plugin header field 'Name'
+#: bf3infobox.php:0
+#@ bf3infobox
+msgid "Battlefield 3 Infobox"
+msgstr "Battlefield 3 Infobox"
+

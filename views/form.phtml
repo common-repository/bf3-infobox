@@ -1,0 +1,36 @@
+<p>
+    <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Infobox Title', 'bf3infobox'); ?>:</label>
+    <input class="widefat"
+       id="<?php echo $this->get_field_id('title'); ?>"
+       name="<?php echo $this->get_field_name('title'); ?>"
+       type="text"
+       value="<?php if(isset($title)) echo esc_attr($title); ?>"
+    >
+</p>
+
+<p>
+    <label for="<?php echo $this->get_field_id('playername'); ?>"><?php _e('Playername', 'bf3infobox'); ?>:</label>
+    <input class="widefat"
+       id="<?php echo $this->get_field_id('playername'); ?>"
+       name="<?php echo $this->get_field_name('playername'); ?>"
+       type="text"
+       value="<?php if(isset($playername)) echo esc_attr($playername); ?>"
+    >
+</p>
+
+<p>
+    <label for="<?php echo $this->get_field_id('platform'); ?>"><?php _e('Platform', 'bf3infobox'); ?>:</label><br>
+    <select id="" id="<?php echo $this->get_field_id('platform'); ?>" name="<?php echo $this->get_field_name('platform'); ?>">
+        <option value="pc" <?php echo ($platform == 'pc') ? 'selected' : '';?>>PC</option>
+        <option value="ps3" <?php echo ($platform == 'ps3') ? 'selected' : '';?>>PS3</option>
+        <option value="360" <?php echo ($platform == '360') ? 'selected' : '';?>>Xbox 360</option>
+    </select>
+</p>
+
+<?php if(isset($playername) AND !empty($playername)) : ?>
+    <p>
+        <a href="http://bf3stats.com/stats_<?php echo $platform . '/' . $playername; ?>" target="_blank"><input type="button" class="button" value="<?php _e('Update at bf3stats.com', 'bf3infobox'); ?>"></a>
+
+    </p>
+<?php endif; ?>
+<?php _e('Info: Save to clear internal 60min cache and reload Stats from bf3stats.com (Update manualy before!)', 'bf3infobox'); ?>

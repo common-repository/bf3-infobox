@@ -1,0 +1,44 @@
+/*
+Plugin Name: Battlefield 3 Info
+Description: Style some components of the widget and admin area
+*/
+
+.bf3infobox-widget img {
+    box-shadow: none !important;
+    float: none !important;
+    margin: 0 !important;
+}
+
+.bf3infobox-widget a.rankimagelink {
+    border: none !important;
+    display: inline !important;
+}
+
+.bf3infobox-widget a.rankimagelink:hover {
+    background: inherit !important;
+}
+
+.bf3infobox-widget .center {
+    text-align: center;
+}
+
+.bf3infobox-widget table {
+    margin: 0 auto;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.bf3infobox-widget tr {
+    border: 0;
+}
+
+.bf3infobox-widget tr.odd {
+    background-color: #F0F0F0;
+}
+
+.bf3infobox-widget td {
+    padding: 4px !important;
+    border: 0;
+    vertical-align: middle;
+}
+
